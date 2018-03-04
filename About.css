@@ -1,0 +1,354 @@
+
+.whole {
+    width: 960px;
+    height: 811px;
+    margin: auto;
+}
+
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+.header {
+    width: 100%;
+    height: 9%;
+    /* margin: 0px; */
+    /* left: 30px; */
+    background-color: #ffffff;
+    border-bottom: 4px solid #cccccc;
+    border-top: 1px solid #cccccc;
+}
+
+#header1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#header2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#name {
+    color: white;
+    float: left;
+    width: 43%;
+    height: 46px;
+    position: relative;
+    top: -25px;
+    left: 28px;
+    padding: 14px;
+    margin: 25px 0px 0px 0px;
+
+}
+
+.headerbuttons:hover {
+    background-color: red;
+    border-right: transparent;
+}
+
+.headerbuttons {
+    display: inline;
+    position: absolute;
+    right: -112px;
+    margin-right: 0px;
+    margin-top: 21px;
+    font-size: 19px;
+    padding-right: 43px;
+    background-color: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent;
+}
+
+
+#About{
+    right: 28.9%;
+}
+
+#contact{
+    right: 15%;
+}
+
+#portfolio{
+    right: 1%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 75%;
+}
+
+.backimage{
+    width: 100%;
+    height: 100%;
+}
+
+#container1 {
+    width: 64%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#container2 {
+    width: 36%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.Box1 {
+    background-color: #ffffff;
+    width: 85%;
+    padding: 4%;
+    border: 1px solid black;
+    top: 5%;
+    left: 4.4%;
+    position: relative;
+}
+
+.Box2 {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    background-color: #ffffff;
+    width: 72.1%;
+    height: 24.7%;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.col-sm-4 {
+    height: 309px;
+    width: 288px;
+    float: left;
+}
+
+.col-sm-8 {
+    height: 382px;
+    margin-top: 87px;
+    width: 100%;
+}
+
+#mypic {
+    width: 268px;
+    height: 211px;
+}
+
+#portfolio {
+    border-right: transparent;
+}
+
+}
+
+a {
+    margin: 8px
+}
+
+
+footer {
+    position: relative;
+    /* top: 92%; */
+    width: 100%;
+    height: 100px;
+    background-color: #666666;
+    border-top: 20px solid #4aaaa5;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+}
+
+.links {
+    display: inline;
+}
+
+#in {
+    margin: 15px;
+}
+
+
+
+h1 {
+    color: #4aaaa5;
+}
+
+#git:Hover {
+    opacity: .5
+}
+
+#in:Hover {
+    opacity: .5
+}
+
+#stack:Hover {
+    opacity: .5
+}
+
+
+@media screen and (max-width: 768px) {
+    #header1 { 
+        width: 30%;
+    }
+
+    #name {
+        width: 71%;
+        height: 51px;
+    }
+
+    .container {
+        width: 99%;
+        position: absolute;
+        height: 95%;
+        top: 12.3%;
+    }
+
+    #container1{
+        width: 100%;
+        height: 60%;
+        top: 1%;
+        position: absolute;
+    }
+    #container2{
+        width: 119%;
+        top: 77%;
+        left: 4%;
+    }
+    .backimage {
+        height: 120%;
+        position: absolute;
+    }
+
+    .whole {
+        height: 881px;
+    }
+
+    .Box1 {
+        position: absolute;
+    }
+
+    footer {
+        top: 94%; 
+    }       
+}
+
+@media screen and (max-width: 640px) {
+    #name {
+        width: 100%;
+        left: 0px;
+        text-align: left;
+        padding-left: 177px;
+    }
+    #header1 { 
+        width: 100%;
+    }
+    #header2 {
+        width: 100%;
+    }
+
+    #header1 {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    #header2{
+        width: 100%;
+        text-align: center;
+        right: -19px;
+    }
+
+    .headerbuttons {
+        /*right: 40%;*/
+        position: absolute;
+        text-align: center;
+        display: inline;
+    }
+
+    #About{
+        right: 79%;
+    }
+
+    #contact{
+        right: 2%;
+    }
+
+    #portfolio{
+        right: 39%;
+    }
+
+    #name {
+        width: 150%;
+        left: -55%;
+        text-align: center;
+        position: absolute;
+        top: -2.3%;
+        height: 8%;
+    }
+
+    .backimage {
+        height: 105%;
+        position: absolute;
+    }
+
+    .whole {
+        height: 881px;
+    }
+    
+    .container {
+        top: 22%;
+        position: absolute;
+        height: 116%;
+    }
+
+    #container1 {
+        height: 164%;
+    }
+
+    #container2 {
+        height: 65%;
+        top: 65%;
+    }
+
+    .Box1 {
+        height: 31%;
+        position: absolute;
+    }
+
+    footer {
+        top: 109%;
+    }
+    
+    #copyright {
+        right: 54%;
+        position: absolute;
+    }
+    
+}
+
+@media screen and (min-width: 960px) {
+    #About{
+    right: -26.0%;
+    position: relative;
+}
+
+    #contact{
+        right: -29%;
+        position: relative;
+}
+    
+    #portfolio{
+        right: -32%;
+        position: relative;
+}
+}
+
+
