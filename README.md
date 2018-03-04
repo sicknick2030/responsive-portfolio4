@@ -7,9 +7,9 @@ I adapted my portfolio to use three @media screen tags, each with one of these m
 
 I made the layout responsive for each page...
 
-index.html: 980px, 768px, 640px
-portfolio.html: 980px, 768px, 640px
-contact.html: 980px, 768px, 640px
+.index.html: 980px, 768px, 640px
+.portfolio.html: 980px, 768px, 640px
+.contact.html: 980px, 768px, 640px
 
 
 Technologies Used
